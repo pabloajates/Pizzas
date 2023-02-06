@@ -3,9 +3,9 @@ package iesam.pizzas.domain;
 public class CartaPizzas {
 
     private Integer id;
-    private String nombre;
-    private String extras;
-    private String salsa;
+    protected String nombre;
+    protected String extras;
+    protected String salsa;
 
     public Integer getId() {
         return id;

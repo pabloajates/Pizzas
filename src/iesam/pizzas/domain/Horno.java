@@ -7,6 +7,19 @@ public class Horno {
     private String marca;
     private String temperatura;
 
+    private CartaPizzas pizzas;
+
+    public CartaPizzas getPizzasBarbacoa(Barbacoa barbacoa) {
+        return pizzas;
+    }
+    public CartaPizzas getPizzasCampera(Campera campera) {
+        return pizzas;
+    }
+    public CartaPizzas getPizzasCarbonara(Carbonara carbonara) {
+        return pizzas;
+    }
+
+
     public Integer getId() {
         return id;
     }
